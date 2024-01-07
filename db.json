@@ -1,0 +1,22 @@
+{
+    "services": [
+      { "id": 1, "name": "Electrician" },
+      { "id": 2, "name": "Plumber" }
+    ],
+    "teams": [
+      { "id": 1, "name": "Team A", "serviceId": 1 },
+      { "id": 2, "name": "Team B", "serviceId": 2 }
+    ],
+    "requests": [
+      {
+        "id": 1,
+        "serviceId": 1,
+        "teamId": 1,
+        "source": "Web",
+        "status": "Pending",
+        "rating": 4,
+        "scheduledMaintenance": true
+      }
+    ]
+  }
+  
